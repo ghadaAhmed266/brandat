@@ -1,0 +1,22 @@
+$primary-color:#216432;
+$second-color:#fff;
+nav{
+    background: $primary-color;
+    color:$second-color;
+    .btn-outline-dark{
+        color:$second-color;
+        border-color:$second-color;
+    }
+    .btn-outline-dark:hover{
+        color:$primary-color;
+        border-color:$primary-color;
+        background-color: $second-color;
+    }
+}
+
+/* For small screens (phones) */
+@media (max-width: 768px) {
+  .phone-number{
+    display:none;
+  }
+}
